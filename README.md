@@ -2,7 +2,7 @@ Batmouse
 ========
 
 ![](https://github.com/tarcisioe/batmouse/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/tarcisioe/batmouse/branch/main/graph/badge.svg)](https://codecov.io/gh/tarcisioe/roboto)
+[![codecov](https://codecov.io/gh/tarcisioe/batmouse/branch/main/graph/badge.svg)](https://codecov.io/gh/tarcisioe/batmouse)
 
 A library for getting battery status and percentage from wireless mice.
 
