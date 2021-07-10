@@ -25,7 +25,7 @@ class SysPowerSupply:  # pragma: no cover
     @property
     def status(self) -> ChargingStatus:
         """Get the current supply status (discharging/charging/charged)."""
-        return ChargingStatus(self._read_attribute('status'))
+        return ChargingStatus(self._read_attribute('status').lower())
 
     @property
     def voltage(self) -> float:
