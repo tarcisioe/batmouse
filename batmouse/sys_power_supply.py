@@ -30,4 +30,4 @@ class SysPowerSupply:  # pragma: no cover
     @property
     def voltage(self) -> float:
         """Get the current voltage."""
-        return float(self._read_attribute('voltage_now'))
+        return float(int(self._read_attribute('voltage_now')) / 1000000)
